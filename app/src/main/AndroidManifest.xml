@@ -12,6 +12,21 @@
         android:theme="@style/Theme.Campson_Project"
         tools:targetApi="31">
         <activity
+            android:name=".info_khaokho_sacment"
+            android:exported="false" />
+        <activity
+            android:name=".info_jadee"
+            android:exported="false" />
+        <activity
+            android:name=".info_royal_pratumnak"
+            android:exported="false" />
+        <activity
+            android:name=".info_waterfall_sridith"
+            android:exported="false" />
+        <activity
+            android:name=".info_temple_sonkaew"
+            android:exported="false" />
+        <activity
             android:name=".Home"
             android:exported="false" />
         <activity
