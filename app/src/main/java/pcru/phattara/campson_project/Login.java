@@ -30,6 +30,7 @@ public class Login extends AppCompatActivity {
                     db.addVisitor(new Visitor(data_name_str, Integer.parseInt(data_age_str), Utility.get_ts()));
                     data_name.setText("");
                     data_age.setText("");
+                    Utility.page(this, Home.class);
                 }
             });
             btn_submit_ano.setOnClickListener(v -> {
