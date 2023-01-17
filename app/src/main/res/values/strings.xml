@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Campson_Project</string>
     <string name="credit">\@ 2023 Phattara.PCRU</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="temple_sonkaew">วัดพระธาตุผาซ่อนแก้ว</string>
+    <string name="waterfall_sridith">น้ำตกศรีดิษฐ์</string>
+    <string name="royal_pratumnak">พระตำหนักเขาค้อ</string>
+    <string name="jadee">พระบรมธาตุเจดีย์กาญจนาภิเษก</string>
+    <string name="khaokho_sacment">อนุสรณ์สถานผู้เสียสละเขาค้อ</string>
 </resources>
