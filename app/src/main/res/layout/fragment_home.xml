@@ -25,12 +25,15 @@
             android:layout_marginEnd="10dp">
 
             <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/div1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TextView
-                    android:layout_width="match_parent"
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     android:text="@string/temple_sonkaew"
                     android:textColor="#FFFFFF"
                     android:shadowColor="#000000"
@@ -38,6 +41,7 @@
                     android:shadowDy="1.3"
                     android:shadowRadius="1.6"
                     android:textStyle="bold"
+
                     android:textSize="20sp"
                     android:layout_marginStart="7dp"
                     android:layout_marginBottom="4dp"
@@ -71,9 +75,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp">
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     android:text="@string/waterfall_sridith"
                     android:textColor="#FFFFFF"
                     android:shadowColor="#000000"
@@ -114,9 +119,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp">
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     android:text="@string/royal_pratumnak"
                     android:textColor="#FFFFFF"
                     android:shadowColor="#000000"
@@ -157,9 +163,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp">
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     android:text="@string/jadee"
                     android:textColor="#FFFFFF"
                     android:shadowColor="#000000"
@@ -199,11 +206,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp"
-                android:layout_marginBottom="0dp" >
+                android:layout_marginBottom="0dp"
+                >
                 <TextView
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
                     android:text="@string/khaokho_sacment"
                     android:textColor="#FFFFFF"
                     android:shadowColor="#000000"
