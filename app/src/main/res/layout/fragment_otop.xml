@@ -48,7 +48,7 @@
                             android:layout_marginStart="16dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="16dp"
-                            android:text="OTOP คืออะไร ?"
+                            android:text="@string/otop_bnNa"
                             android:textColor="#000000"
                             android:textSize="18sp"
                             android:textStyle="bold"
@@ -65,7 +65,7 @@
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
-                                android:text="OTOP หรือ สินค้าชุมชน คือ สินค้าที่ผลิตขึ้นโดยชุมชน โดยมีการใช้วัตถุดิบที่มีอยู่ในชุมชน"
+                                android:text="@string/otop_bnDesc"
                                 android:textSize="16sp"/>
                         </androidx.constraintlayout.widget.ConstraintLayout>
                         <LinearLayout
@@ -100,7 +100,7 @@
                         android:layout_marginRight="10dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/otop_bn" />
+                        android:src="@drawable/otop_makahm" />
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
@@ -111,7 +111,7 @@
                             android:layout_marginStart="16dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="16dp"
-                            android:text="OTOP คืออะไร ?"
+                            android:text="@string/otop_makahmNa"
                             android:textColor="#000000"
                             android:textSize="18sp"
                             android:textStyle="bold"
@@ -128,7 +128,7 @@
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
-                                android:text="OTOP หรือ สินค้าชุมชน คือ สินค้าที่ผลิตขึ้นโดยชุมชน โดยมีการใช้วัตถุดิบที่มีอยู่ในชุมชน"
+                                android:text="@string/otop_makahmDesc"
                                 android:textSize="16sp"/>
                         </androidx.constraintlayout.widget.ConstraintLayout>
                         <LinearLayout
@@ -163,7 +163,7 @@
                         android:layout_marginRight="10dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/otop_bn" />
+                        android:src="@drawable/otop_coldProductive" />
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
@@ -174,7 +174,7 @@
                             android:layout_marginStart="16dp"
                             android:layout_marginTop="16dp"
                             android:layout_marginEnd="16dp"
-                            android:text="OTOP คืออะไร ?"
+                            android:text="@string/otop_coldProductiveNa"
                             android:textColor="#000000"
                             android:textSize="18sp"
                             android:textStyle="bold"
@@ -191,7 +191,7 @@
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginEnd="16dp"
-                                android:text="OTOP หรือ สินค้าชุมชน คือ สินค้าที่ผลิตขึ้นโดยชุมชน โดยมีการใช้วัตถุดิบที่มีอยู่ในชุมชน"
+                                android:text="@string/otop_coldProductiveDesc"
                                 android:textSize="16sp"/>
                         </androidx.constraintlayout.widget.ConstraintLayout>
                         <LinearLayout
@@ -213,68 +213,68 @@
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="400dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="10dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="10dp"
-                        android:scaleType="centerCrop"
-                        android:adjustViewBounds="true"
-                        android:src="@drawable/otop_bn" />
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-                        <TextView
-                            android:id="@+id/otopH4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="16dp"
-                            android:layout_marginTop="16dp"
-                            android:layout_marginEnd="16dp"
-                            android:text="OTOP คืออะไร ?"
-                            android:textColor="#000000"
-                            android:textSize="18sp"
-                            android:textStyle="bold"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"/>
-                        <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            app:layout_constraintTop_toBottomOf="@+id/otopH4"
-                            android:layout_marginTop="7dp">
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_marginStart="16dp"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginEnd="16dp"
-                                android:text="OTOP หรือ สินค้าชุมชน คือ สินค้าที่ผลิตขึ้นโดยชุมชน โดยมีการใช้วัตถุดิบที่มีอยู่ในชุมชน"
-                                android:textSize="16sp"/>
-                        </androidx.constraintlayout.widget.ConstraintLayout>
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent">
-                            <Button
-                                android:id="@+id/gMap4"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="GOOGLE MAP"
-                                android:layout_marginTop="16dp"
-                                android:layout_marginBottom="16dp"
-                                android:layout_marginLeft="16dp"
-                                android:layout_marginRight="16dp" />
-                        </LinearLayout>
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-                </LinearLayout>
+<!--                <LinearLayout-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:orientation="vertical">-->
+<!--                    <ImageView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="400dp"-->
+<!--                        android:layout_marginTop="10dp"-->
+<!--                        android:layout_marginBottom="10dp"-->
+<!--                        android:layout_marginLeft="10dp"-->
+<!--                        android:layout_marginRight="10dp"-->
+<!--                        android:scaleType="centerCrop"-->
+<!--                        android:adjustViewBounds="true"-->
+<!--                        android:src="@drawable/otop_bn" />-->
+<!--                    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="match_parent">-->
+<!--                        <TextView-->
+<!--                            android:id="@+id/otopH4"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:layout_marginStart="16dp"-->
+<!--                            android:layout_marginTop="16dp"-->
+<!--                            android:layout_marginEnd="16dp"-->
+<!--                            android:text="OTOP คืออะไร ?"-->
+<!--                            android:textColor="#000000"-->
+<!--                            android:textSize="18sp"-->
+<!--                            android:textStyle="bold"-->
+<!--                            app:layout_constraintStart_toStartOf="parent"-->
+<!--                            app:layout_constraintTop_toTopOf="parent"/>-->
+<!--                        <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            app:layout_constraintTop_toBottomOf="@+id/otopH4"-->
+<!--                            android:layout_marginTop="7dp">-->
+<!--                            <TextView-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="match_parent"-->
+<!--                                android:layout_marginStart="16dp"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginEnd="16dp"-->
+<!--                                android:text="OTOP หรือ สินค้าชุมชน คือ สินค้าที่ผลิตขึ้นโดยชุมชน โดยมีการใช้วัตถุดิบที่มีอยู่ในชุมชน"-->
+<!--                                android:textSize="16sp"/>-->
+<!--                        </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:orientation="horizontal"-->
+<!--                            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                            app:layout_constraintStart_toStartOf="parent">-->
+<!--                            <Button-->
+<!--                                android:id="@+id/gMap4"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:text="GOOGLE MAP"-->
+<!--                                android:layout_marginTop="16dp"-->
+<!--                                android:layout_marginBottom="16dp"-->
+<!--                                android:layout_marginLeft="16dp"-->
+<!--                                android:layout_marginRight="16dp" />-->
+<!--                        </LinearLayout>-->
+<!--                    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--                </LinearLayout>-->
 
 
             </LinearLayout>
