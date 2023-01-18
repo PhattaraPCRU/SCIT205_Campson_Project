@@ -25,9 +25,9 @@
         android:layout_marginTop="25dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-
         android:text="Please enter your name and age"
         android:textSize="25sp"
+
         />
 
     <EditText
@@ -38,6 +38,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Name"
+        android:drawableLeft="@drawable/va_person_outline"
+        android:background="@drawable/rounded_corner"
         app:layout_constraintTop_toBottomOf="@+id/login_label"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -51,6 +53,8 @@
         android:ems="10"
         android:inputType="number"
         android:hint="Age"
+        android:drawableLeft="@drawable/va_person_calendar"
+        android:background="@drawable/rounded_corner"
         app:layout_constraintTop_toBottomOf="@+id/data_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
