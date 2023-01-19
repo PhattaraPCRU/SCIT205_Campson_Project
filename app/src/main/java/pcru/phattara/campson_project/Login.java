@@ -27,16 +27,17 @@ public class Login extends AppCompatActivity {
                 } else if (data_age_str.equalsIgnoreCase("")) {
                     data_age.setError("Please enter a age");
                 } else {
-                    db.addVisitor(new Visitor(data_name_str, Integer.parseInt(data_age_str), Utility.get_ts()));
+                    db.insertData(data_name_str, data_age_str, Utility.getDateTime());
                     data_name.setText("");
                     data_age.setText("");
                     Utility.page(this, Home.class);
                 }
             });
             btn_submit_ano.setOnClickListener(v -> {
-                    db.addVisitor(new Visitor("Anonymous", 0, Utility.get_ts()));
+                    db.insertData("Anonymous", "0", Utility.getDateTime());
                     data_name.setText("");
                     data_age.setText("");
+                    Utility.page(this, Home.class);
             });
         }
     }

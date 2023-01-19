@@ -75,10 +75,10 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent">
                             <Button
-                                android:id="@+id/gMap1"
+                                android:id="@+id/btn_bn_gMap"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="GOOGLE MAP"
+                                android:text="GMap"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginBottom="16dp"
                                 android:layout_marginLeft="16dp"
@@ -138,10 +138,10 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent">
                             <Button
-                                android:id="@+id/gMap2"
+                                android:id="@+id/btn_makahm_gMap"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="GOOGLE MAP"
+                                android:text="GMap"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginBottom="16dp"
                                 android:layout_marginLeft="16dp"
@@ -163,7 +163,7 @@
                         android:layout_marginRight="10dp"
                         android:scaleType="centerCrop"
                         android:adjustViewBounds="true"
-                        android:src="@drawable/otop_coldProductive" />
+                        android:src="@drawable/otop_coldproductive" />
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
@@ -201,10 +201,10 @@
                             app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintStart_toStartOf="parent">
                             <Button
-                                android:id="@+id/gMap3"
+                                android:id="@+id/btn_coldProduct_gMap"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="GOOGLE MAP"
+                                android:text="GMap"
                                 android:layout_marginTop="16dp"
                                 android:layout_marginBottom="16dp"
                                 android:layout_marginLeft="16dp"
@@ -267,7 +267,7 @@
 <!--                                android:id="@+id/gMap4"-->
 <!--                                android:layout_width="wrap_content"-->
 <!--                                android:layout_height="wrap_content"-->
-<!--                                android:text="GOOGLE MAP"-->
+<!--                                android:text="GMap"-->
 <!--                                android:layout_marginTop="16dp"-->
 <!--                                android:layout_marginBottom="16dp"-->
 <!--                                android:layout_marginLeft="16dp"-->
