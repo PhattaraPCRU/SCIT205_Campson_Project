@@ -46,18 +46,6 @@ public class HomeFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-//        SliderView sv1 = view.findViewById(R.id.imgS1);
-//        SliderView sv2 = view.findViewById(R.id.imgS2);
-//        SliderView sv3 = view.findViewById(R.id.imgS3);
-//        SliderView sv4 = view.findViewById(R.id.imgS4);
-//        SliderView sv5 = view.findViewById(R.id.imgS5);
-//        SliderAdapter sa1 = new SliderAdapter(temple_sonkaew);
-//        SliderAdapter sa2 = new SliderAdapter(waterfall_sridith);
-//        SliderAdapter sa3 = new SliderAdapter(royal_pratumnak);
-//        SliderAdapter sa4 = new SliderAdapter(jadee);
-//        SliderAdapter sa5 = new SliderAdapter(khaokho_sacment);
-//        SliderView[] sliderViews = {sv1,sv2,sv3,sv4,sv5};
-//        SliderAdapter[] sliderAdapters = {sa1,sa2,sa3,sa4,sa5};
         SliderView[] sliderViews = {
                 view.findViewById(R.id.imgS1),
                 view.findViewById(R.id.imgS2),
