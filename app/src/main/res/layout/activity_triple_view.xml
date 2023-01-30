@@ -10,19 +10,22 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="33"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/col_age"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="42"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textAlignment="center" />
 
     <TextView
         android:id="@+id/col_datetime"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="25"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textAlignment="center" />
 </LinearLayout>
