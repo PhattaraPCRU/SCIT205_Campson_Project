@@ -75,6 +75,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp">
                 <TextView
+                    android:id="@+id/tv2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -119,6 +120,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp">
                 <TextView
+                    android:id="@+id/tv3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -163,6 +165,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="7dp">
                 <TextView
+                    android:id="@+id/tv4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -209,6 +212,7 @@
                 android:layout_marginBottom="0dp"
                 >
                 <TextView
+                    android:id="@+id/tv5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     app:layout_constraintBottom_toBottomOf="parent"
