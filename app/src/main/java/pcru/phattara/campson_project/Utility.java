@@ -40,7 +40,7 @@ public class Utility {
         return false;
     }
     public static String getDateTime() {
-        long tsLong = System.currentTimeMillis()/1000;
-        return Long.toString(tsLong);
+        java.util.Date date = new java.util.Date();
+        return new java.sql.Timestamp(date.getTime()).toString();
     }
 }
