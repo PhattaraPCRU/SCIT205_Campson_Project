@@ -21,61 +21,66 @@
         android:id="@+id/login_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="25dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="8dp"
         android:text="Please enter your name and age"
         android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
 
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
         android:id="@+id/data_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Name"
-        android:drawableLeft="@drawable/va_person_outline"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/rounded_corner"
-        app:layout_constraintTop_toBottomOf="@+id/login_label"
-        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/va_person_outline"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_label" />
 
     <EditText
         android:id="@+id/data_age"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="Age"
-        android:drawableLeft="@drawable/va_person_calendar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/rounded_corner"
-        app:layout_constraintTop_toBottomOf="@+id/data_name"
-        app:layout_constraintStart_toStartOf="parent"
+        android:drawableLeft="@drawable/va_person_calendar"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data_name" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:gravity="center_horizontal"
-        app:layout_constraintTop_toBottomOf="@+id/data_age"
-        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/data_age">
 
         <Button
             android:id="@+id/btn_submit_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
-            android:text="Login"
+            android:text="Submit"
             android:textColor="@color/white" />
 
         <Button
