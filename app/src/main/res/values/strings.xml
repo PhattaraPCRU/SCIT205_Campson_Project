@@ -7,11 +7,11 @@
     <string name="royal_pratumnak">พระตำหนักเขาค้อ</string>
     <string name="jadee">พระบรมธาตุเจดีย์กาญจนาภิเษก</string>
     <string name="khaokho_sacment">อนุสรณ์สถานผู้เสียสละเขาค้อ</string>
-    <string name="temple_sonkaewU"><u>วัดพระธาตุผาซ่อนแก้ว</u></string>
-    <string name="waterfall_sridithU"><u>น้ำตกศรีดิษฐ์</u></string>
-    <string name="royal_pratumnakU"><u>พระตำหนักเขาค้อ</u></string>
-    <string name="jadeeU"><u>พระบรมธาตุเจดีย์กาญจนาภิเษก</u></string>
-    <string name="khaokho_sacmentU"><u>ุสรณ์สถานผู้เสียสละเขาค้อ</u></string>
+    <string name="temple_sonkaewU"><u>วัดพระธาตุผาซ่อนแก้ว (กดที่นี่)</u></string>
+    <string name="waterfall_sridithU"><u>น้ำตกศรีดิษฐ์ (กดที่นี่)</u></string>
+    <string name="royal_pratumnakU"><u>พระตำหนักเขาค้อ (ทรงสัมผัสที่นี่)</u></string>
+    <string name="jadeeU"><u>พระบรมธาตุเจดีย์กาญจนาภิเษก (กดที่นี่)</u></string>
+    <string name="khaokho_sacmentU"><u>ุสรณ์สถานผู้เสียสละเขาค้อ (กดที่นี่)</u></string>
 
     <string name="otop_bnNa">ไร่บีเอ็น</string>
     <string name="otop_bnDesc">\tแหล่งท่องเที่ยวเชิงเกษตรที่ได้รับความนิยมไม่เสื่อมคลายจากผู้ที่มาเที่ยวเขาค้อที่นี่มีพืชผัก ผลไม้ที่หมุนเวียนผลัดเปลี่ยนกันตามฤดูกาลมากมายจากพื้นที่การเกษตรนับพันมาวางจำหน่ายให้ คุณเลือกซื้อเป็นของฝากติดไม้ติดมือ</string>
@@ -20,4 +20,6 @@
     <string name="otop_coldProductiveNa">ผลิตผลทางการเกษตรและพืชผักเมืองหนาว</string>
     <string name="otop_coldProductiveDesc">\tผลิตผลทางการเกษตรและพืชผักเมืองหนาว มีพืชผัก ผลไม้ที่หมุนเวียนผลัดเปลี่ยนกันตามฤดูกาลมากมายจากพื้นที่การเกษตรนับพันมาวางจำหน่ายให้ คุณเลือกซื้อเป็นของฝากติดไม้ติดมือ</string>
     <string name="title_activity_gmaps">GMaps</string>
+    <string name="triangle_up">&#9651;</string>
+    <string name="triangle_down">&#9661;</string>
 </resources>
