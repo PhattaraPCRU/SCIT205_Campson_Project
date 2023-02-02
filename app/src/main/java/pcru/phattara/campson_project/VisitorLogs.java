@@ -28,12 +28,25 @@ public class VisitorLogs extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visitor_logs);
 
+        updateListView();
+        findViewById(R.id.btn_back).setOnClickListener(v -> {
+            finish();
+        });
+        findViewById(R.id.btn_refresh).setOnClickListener(v -> {
+            finish();
+            startActivity(getIntent());
+        });
+        findViewById(R.id.btn_delete).setOnClickListener(v -> {
+            deleteListView();
+        });
+    }
+    private void updateListView(){
         db = new DBHelper(this);
         visitorList = new ArrayList<>();
         Cursor data = db.getAllData();
         int numRows = data.getCount();
         if(numRows == 0){
-            Toast.makeText(VisitorLogs.this, "The Database is empty  :(.", Toast.LENGTH_LONG).show();
+            Toast.makeText(VisitorLogs.this, "The Database is empty  :(.", Toast.LENGTH_SHORT).show();
         }else{
             int i = 0;
             while (data.moveToNext()){
@@ -47,34 +60,14 @@ public class VisitorLogs extends AppCompatActivity {
             listView = (ListView) findViewById(R.id.visitor_logs_list);
             listView.setAdapter(adapter);
         }
-
-        Button btn_back = findViewById(R.id.btn_back);
-        btn_back.setOnClickListener(v -> {
-            Utility.page(this, Home.class);
-        });
-        Button refresh = findViewById(R.id.btn_back);
-        refresh.setOnClickListener(v -> {
-            updateListView();
-        });
-        Button btn_delete = findViewById(R.id.btn_delete);
-        btn_delete.setOnClickListener(v -> {
-            if (db.deleteAll()) {
-                Toast.makeText(VisitorLogs.this, "All data deleted", Toast.LENGTH_LONG).show();
-                updateListView();
-            } else {
-                Toast.makeText(VisitorLogs.this, "There is no data to delete", Toast.LENGTH_LONG).show();
-            }
-            updateListView();
-        });
     }
-    private void updateListView(){
-        Cursor data = db.getAllData();
-        ArrayList<String> listData = new ArrayList<>();
-        while (data.moveToNext()){
-            listData.add(data.getString(1));
+    private void deleteListView(){
+        if (db.deleteAll()) {
+            Toast.makeText(VisitorLogs.this, "All data deleted", Toast.LENGTH_SHORT).show();
+            updateListView();
+        } else {
+            Toast.makeText(VisitorLogs.this, "There is no data to delete", Toast.LENGTH_SHORT).show();
         }
-        ListAdapter adapter = new TripleViewAdapter(this, R.layout.activity_triple_view, visitorList);
-        listView = (ListView) findViewById(R.id.visitor_logs_list);
-        listView.setAdapter(adapter);
+        updateListView();
     }
 }
