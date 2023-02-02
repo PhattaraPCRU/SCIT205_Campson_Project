@@ -10,10 +10,6 @@
         android:id="@+id/Content"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="8dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/ActionLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,29 +25,179 @@
                 android:id="@+id/MovingPart"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
                 android:gravity="clip_horizontal"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/MainHeader"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="MainHeader"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/temple_sonkaew"
                     android:textAlignment="center"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/SubHeader1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="SubHeader1"
-                    android:textSize="18sp" />
+                    android:text="\tวัดพระธาตุผาซ่อนแก้ว ตั้งอยู่ ต.แคมป์สน อ.เขาค้อ จ.เพชรบูรณ์ เป็นสถานที่อันเป็นธรรมภูมิที่งดงาม รายล้อยด้วยทิวเขาสูงสลับซับซ้อน มีความงดงามของของเจดีย์ คือ ลวดลายการตกแต่งด้วยถ้วยกระเบื้อง หินสีต่างๆ ดูงดงามแปลกตา รวมทั้ง องค์พระพุทธรูปสีขาว ประดิษญานเรียงกัน 5 องค์ มองเห็นโดดเด่นแต่ไกล"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/temple_sonkaew1" />
+
 
                 <TextView
-                    android:id="@+id/Context1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Context1"
+                    android:text="สถานที่สำคัญภายในวัด เจดีย์พระธาตุผาแก้ว"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tวัตถุประสงค์การสร้างเจดีย์เพื่อถวายเป็นพระราชกุศลในวโรกาสที่พระบาทสมเด็จพระเจ้าอยู่หัวทรงครองราชย์ครบ 60 ปี และเป็น ที่สืบพระศาสนาให้ดำรงอยู่คู่แผ่นดินไทย เพื่อประโยชน์แก่มนุษยชาติและคนรุ่นหลัง ได้มีโอกาสเรียนรู้ต่อไปบนยอดเจดีย์บรรจุ พระบรมสารีริกธาตุซึ่งได้รับประทานมาจากสมเด็จพระญาณสังวรสมเด็จพระสังฆราชสกลมหาสังฆปริณายก ความพิเศษของเจดีย์ คือ ลวดลายการตกแต่งด้วยถ้วยกระเบื้อง หินสีต่างๆ ดูงดงามแปลกตาและบริเวณใต้ฐานพระเจดีย์ใช้เป็นที่เก็บรวบรวมหลักธรรมคำสอน ภาพปริศนาธรรม และเป็นที่เจริญสติภาวนา สำหรับพุทธศาสนิกชนทั่วไป"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/temple_sonkaew2" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="พระพุทธเจ้า 5 พระองค์"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tองค์พระพุทธรูปสีขาว ประดิษญานเรียงกัน 5 องค์ มองเห็นโดดเด่นแต่ไกล"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ศาลาปฎิบัติธรรม(ศาลาพระหยกเขียว)"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tเป็นศาลารูปทรงจัตุรัสโปร่งรายรอบด้วยบานกระจกขนาดใหญ่เพื่อให้สัมผัสกับธรรมชาติของขุนเขาอันเขียวชอุ่ม พร้อมทั้งมีสวนดอกไม้ นานาพันธุ์โดยรอบ"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="พระพุทธเลิศรัตนโชติมณี"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tพระรัตนโชติมณี หรือ “พระหยกเขียว” เป็นพระพุทธรูปหยกปางมารวิชัย ซึ่งเป็นศิลปะสมัยเชียงแสน มีขนาด หน้าตัก 65 นิ้ว ทั้งองค์พระถูกแกะสลักจากหยกเขียวทั้งก้อน ที่พระเศียรได้บรรจุพระบรมสารีริกธาตุ ซึ่งเป็น พระสารีริกธาตุที่รับเมตตาประทาน จากสมเด็จพระญาณสังวร สมเด็จพระสังฆราชสกลมหาสังฆปริณา"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="พระพุทธรัตนสัมฤทธิ์ผล"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tพระพุทธรัตนสัมฤทธิ์ผล หรือ “พระหยกขาว”เป็นพระพุทธรูปหยกปางขัดสมาธิเพชรสร้างตามรูปแบบศิลปะ คันธาระ มีขนาดหน้าตัก 39 นิ้ว พระเศียรขององค์พระ บรรจุพระบรมสารีริกธาตุ ที่ได้รับเมตตาประทานจาก สมเด็จพระญาณสังวร สมเด็จพระสังฆราชสกลมหา สังฆปริณายก ได้ทำพิธีอัญเชิญประดิษฐาน ณ พุทธธรรมสถานผาแก้ว"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/temple_sonkaew3" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลานโพธิ์"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tสถานที่อันเป็นมงคลอีกแห่งหนึ่ง ในพุทธธรรมสถานผาซ่อนแก้ว ซึ่ง ณ จุดใจกลางบริเวณลานโดยรอบ จะมีต้นศรีมหาโพธิ์ปลูกไว้ โดยได้นำกล้าโพธิ์ขนาดความสูง3 นิ้วมาจาก พระครูธรรมศาสน์อุโมษ (พระครูในฎีกา ธงไชยวัฒน์ อิสฺสรธมฺโม) วัดท่ากระชัย อ.นครชัยศรี จ.นครปฐม ซึ่งท่านนำมาจากบริเวณรอบเจดีย์พุทธคยา ประเทศอินเดีย และได้มีเมตตามอบผ่านมาทางศิษย์ พระอาจารย์อำนาจโอภาโสเพื่อให้นำมาปลูกเป็นเครื่องยึดเหนี่ยวศรัทธา เพราะถือเป็นต้นไม้ที่ได้ให้ร่มเงาแด่พระพุทธองค์ และได้ทรง ตรัสรู้ธรรมภายใต้ร่มโพธิ์พระอาจารย์ อำนาจ โอภาโส พร้อมด้วยพระอาจารย์ยงยุทธ สุรยุทฺโธ อีกทั้งญาติธรรม ได้นำกล้าโพธิ์ดังกล่าว ลงปลูกบริเวณลานโพธิ์ในวันวิสาขบูชา ปี พ.ศ.2547 พร้อมทั้งทำพิธีเวียนเทียนรอบต้นพระศรีมหาโพธิ์ในวันสำคัญทาง ศาสนา ต่างๆ มาโดยตลอด นอกจากนี้ผู้ปฏิบัติธรรมเป็นใช้เป็นสถานที่เดินจงกรม ในการเจริญสติอีกด้วย"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ลานพระสีวลี"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tสถานที่ประดิษฐานพระพุทธรูป พุทธมหาสาวก “พระสีวลี”"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/temple_sonkaew4" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="รายละเอียดเพิ่มเติม"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="ที่อยู่ วัดพระธาตุผาแก้ว เลขที่ 95 หมู่ 7 บ้านทางแดง ต.แคมป์สน อ.เขาค้อ จ.เพชรบูรณ์ 67280"
                     android:textSize="16sp" />
             </LinearLayout>
         </ScrollView>
@@ -70,12 +216,22 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <Button
-            android:id="@+id/back"
+            android:id="@+id/btn_back"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:layout_weight="70"
             android:checkable="true"
+            android:text="HOME"
             app:icon="@drawable/va_home"
-            app:iconGravity="textStart"/>
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btn_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="TOP"
+            app:iconGravity="textStart" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

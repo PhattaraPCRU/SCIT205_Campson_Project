@@ -5,5 +5,211 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".info_khaokho_sacment">
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ActionLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <ScrollView
+            android:id="@+id/Scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/MovingPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/khaokho_sacment"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tเขาค้อ เคยได้ชื่อว่าเป็นดินแห่งคอมมิวนิสต์ เป็นพื้นที่สีแดงที่คุกรุ่นไปด้วยควันไฟของการสู้รบจากผู้ที่มีแนวคิดทางการเมืองที่แตกต่างกัน (ช่วง พ.ศ. 2511-2525 ) ในยุคที่เขาค้อถือเป็นดินแดนต้องห้ามที่คนทั่วไปไม่ควรเฉียดเข้าไปใกล้แม้แต่น้อย เพราะถือว่าอันตรายที่สุด แต่เมื่อเวลาผันผ่านไป ความขัดแย้งยุติลง เขาค้อก็ปรับเปลี่ยน กลายเป็นสถานที่ท่องเที่ยวอันโดดเด่น และสวยงามมีเสน่ห์ที่สุดแห่งหนึ่งของเพชรบูรณ์"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/khaokho_sacment1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tอนุสรณ์สถานผู้เสียสละเขาค้อ ตั้งอยู่บนยอดเขาจุดสูงที่สุดของเขาค้อ จึงเป็นทั้งแหล่งเรียนรู้ประวัติศาสตร์ และจุดชมวิวอันสวยงามที่สามารถมองเห็นวิวทั่วทั้งอำเภอเขาค้อได้ เป็นจุดชมวิวที่สวยที่สุดอีกแห่งหนึ่งเมื่อยามที่มีทะเลหมอกบริเวณทั่วไปของเขาค้อ\n\n\tบนอนุสรณ์สถานมีจุดชมวิวหลายจุด มีอนุสาวรีย์ที่เป็นอนุสรณ์สถานสำหรับการสู้รบ มีพิพิธภัณฑ์อาวุธ มีฐานกรุงเทพ ที่ผู้ก่อการร้อยใช้เป็นฐานที่มั่นและถูกยึดโดยฝ่ายทหารในเวลาต่อมา"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/khaokho_sacment2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="คุณลักษณะ"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\t&quot;อนุสรณ์สถานผู้เสียสละเขาค้อ&quot; ซึ่งตั้งตระหง่านอยู่บนยอดเขา โดดเด่นด้วยแท่งหินอ่อนรูปทรงสามเหลี่ยม ออกแบบโดย ดร.กฤษฎา อรุณวงษ์ ณ อยุธยา มีความหมายตามขนาดและรูปร่างดังนี้\n\n- รูปทรางสามเหลี่ยม หมายถึงการปฏิบัติการร่วมกันระหว่าง พลเรือน ตำรวจ และทหาร\n- ฐานอนุสรณ์สถานกว้าง 11 เมตร หมายถึง พ.ศ.2511 อันเป็นปีเริ่มการปฏิบัติการรุนแรงของผู้ก่อการร้ายคอมมิวนิสต์ในพื้นที่นี้\n- ความสูงจากแท่นบูชาถึงยอดอนุสรณ์สถาน 24 เมตร หมายถึงพ.ศ. 2524 อันเป็นปีที่เปิดยุทธการครั้งใหญ่\n- ความสูงจากฐานถึงยอดอนุสรณ์สถาน 25 เมตร หมายถึงปี 2525 อันเป็นปีสิ้นสุดการต่อสู้ด้วยอาวุธ\n- ความกว้างฐานสามเหลี่ยมด้านละ 2.6 เมตร หมายถึงปี 2526 อันเป็นปีเริ่มการก่อสร้างอนุสรณ์สถานผู้เสียสละแห่งนี้\n\tอนุสรณ์สถานแห่งนี้ พลเอก อาทิตย์ กำลังเอก ผู้อำนวยการป้องกันการกระทำอันเป็นคอมมิวนิสต์ทั่วไป ได้มาทำพิธีวางศิลาฤกษ์ เมื่อ วันที่ 17 กันยายน 2526 โดยสร้างขึ้นด้วยเงินบริจาค ของประชาชนและข้าราชการทุกฝ่าย"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/khaokho_sacment3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tพระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9 และสมเด็จพระนางเจ้าพระบรมราชินีนาถฯ ได้เสด็จฯ มาเป็นองค์ประธานเปิดอนุสรณ์สถานแห่งนี้ เมื่อวันที่ 20 กุมภาพันธ์ 2527 เพื่อเตือนใจคนไทยทั้งชาติว่า &quot;ยามใดที่คนไทยขัดแย้งกัน จะต้องมีการสูญเสียอย่างผู้กล้าหาญ 1,171 ชีวิต ที่จารึกไว้กับองค์อนุสรณ์ จงอย่าให้เกิดเหตุการณ์เช่นนี้อีก&quot; ทางจังหวัดเพชรบูรณ์ ได้กำหนดวันที่ 20 กุมภาพันธ์ ของทุกปี ตั้งแต่ปี พ.ศ. 2527 เป็นต้นมา ให้เป็นวันสมโภช อนุสรณ์สถานผู้เสียสละเขาค้อ"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/khaokho_sacment4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="นอกจากนี้บริเวณด้านข้างของอนุสรณ์ฯ เป็นฐานจำลองการสู้รบ ที่เป็นเนินเตี้ยๆ มีหลุมหลบภัย มีกระสอบทรายบังเกอร์ ซึ่งในอดีตที่แห่งนี้เป็นฐานแห่งแรกที่ทหารไทยยึดคืนมาได้จากการสู้รบกับ พรรคคอมมิวนิสต์แห่งประเทศไทย (พคท.) นอกจากนี้ บริเวณอนุสรณ์สถาน ยังเป็นจุดชมวิวที่สวยงามที่สุดแห่งหนึ่งบนเขาค้อ เนื่องจากตั้งอยู่บนส่วนที่สูงที่สุด สามารถมองเห็นทัศนียภาพของเนินเขาลูกเล็ก ลูกน้อย ไล่เลียงกันเป็นทะเลภูเขา แลในเช้าวันที่มีทะเลหมอกด้านล่าง ยังสามารถชมทะเลหมอกได้จากจุดชมวิวนี้ได้ด้วย"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/khaokho_sacment5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="ใกล้ๆ กับอนุสรณ์สถานผู้เสียสละเขาค้อ มีสถานที่สำคัญอีกแห่งหนึ่ง คือพิพิธภัณฑ์ อาวุธ (ฐานอิทธิ) ซึ่งตั้งชื่อตาม พันเอก อิทธิ สิมารักษ์ ผู้มีบทบาทสำคัญในการต่อสู้ยึดพื้นที่เขาค้อคืนจาก ผกค.ในปี พ.ศ.2524 บริเวณนี้เคยเป็นฐานปืนใหญ่ ยิงสนับสนุนการ สู้รบ ปัจจุบันจัดให้ เป็นพิพิธภัณฑ์กลางแจ้ง มีอาวุธยุทโธปกรณ์ ที่ใช้ในการสู้รบตั้งอยู่มากมาย เช่น เครื่องบินขับไล่ เอฟ 5 รถสายพานลำเลียงพล ปืนใหญ่ ปืนใหญ่ขนาด 105 มม. จำนวน 2 กระบอก ปืนใหญ่ ขนาด 155 มม. ยิงได้ไกล 11 กิโลเมตร 1 กระบอก ฯลฯ"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/khaokho_sacment6" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="ภายในอาคารมีห้องบรรยายสรุปเกี่ยวกับเหตุการณ์ ในยุทธภูมิเลือดเขาค้อ มีห้องจัดนิทรรศการ เกี่ยวกับอุปกรณ์ เครื่องใช้ เสื้อผ้า อาวุธของคอมมิวนิสต์ ส่วนด้านนอกอาคารยังมีฐานอาวุธ จัดแสดงอาวุธยุทโธปากรณ์ เช่น ปืนใหญ่ รถถัง รถแทรกเตอร์ บังเกอร์หลบภัย แต่ละจุดมีป้ายประวัติพร้อมคำอธิบายประกอบ จึงเป็นแหล่งท่องเที่ยวเชิงประวัติศาสตร์ที่ผู้มาเยือนเขาค้อไม่ควรพลาดชม เพราะนอกจากจะได้มารู้จักเขาค้อ รู้จักอาวุธยุทโธปกรณ์แล้ว ยังได้เรียนรู้ประวัติศาสตร์ที่สำคัญที่สุดบทหนึ่งของประเทศไทย ได้รับทราบถึงบทเรียนสำคัญในช่วงหัวเลี้ยวหัวต่อยุคหนึ่งของชาติ"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/khaokho_sacment7" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="รายละเอียดเพิ่มเติม"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="พิพิธภัณฑ์อาวุธ เปิดให้เข้าชม ทุกวัน จันทร์ – อาทิตย์\nเวลา 07.00 – 17.00 น.\nค่าเข้าชม 10 บาท\nกรณีมาเป็นหมู่คณะ จะมีเจ้าหน้าที่ช่วยบรรยายสรุปและฉายวีดีทัศน์ การต่อสู้ที่เขาค้อให้รับชมด้วย\n\nJX7P+X6Q ตำบล เขาค้อ อำเภอเขาค้อ เพชรบูรณ์ 67270"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ActionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="70"
+            android:checkable="true"
+            android:text="HOME"
+            app:icon="@drawable/va_home"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btn_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="TOP"
+            app:iconGravity="textStart" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

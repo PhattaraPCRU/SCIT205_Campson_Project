@@ -5,5 +5,161 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".info_waterfall_sridith">
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ActionLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <ScrollView
+            android:id="@+id/Scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/MovingPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/waterfall_sridith"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tเป็นสถานที่ท่องเที่ยวธรรมชาติสวยงาม ที่สามารถสัมผัสได้ถึงบรรยากาศของป่าไม้ ภูเขา และสายน้ำสุดๆ และที่สำคัญยังจัดว่าเป็นอีกสถานที่ท่องเที่ยวเชิงประวัติศาสตร์อีกด้วยค่ะ นอกจากนี้รอบๆ น้ำตกศรีดิษฐ์ ก็จะมีร้านค้าขายของจากชาวบ้านให้บริการอีกด้วย ทั้ง อาหารและของฝากของที่ระลึกต่างๆ"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/waterfall_sridith1" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="คุณลักษณะ"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tน้ำตกนี้ จะเป็นลักษณะของน้ำที่ไหลผ่านจากหน้าผาตัด ลัดเลาะผ่านลงตามซอกหินชั้นต่างๆ และตกลงมาคล้ายม่านน้ำตกหลายม่านอย่างสวยงามเลยค่ะ บริเวณด้านล่างของน้ำตก จะมีแอ่งขนาดใหญ่ ที่สามารถลงเล่นน้ำได้ แต่ในช่วงหน้าฝนต้องใช้ความระมัดระวัง เพราะน้ำจะไหลเชี่ยว อาจจะทำให้เกิดอันตรายได้"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/waterfall_sridith4" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ประวัติ"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tน้ำตกศรีดิษฐ์ ตั้งอยู่ที่ บ้านร่มโพธิ์ร่มไทร ตำบลหนองแม่นา อำเภอเขาค้อ จังหวัดเพชรบูรณ์ เป็นน้ำตกหินชั้นขนาดใหญ่ ที่มีเพียงแค่ชั้นเดียว สูง 30 เมตร กว้าง 50 เมตร แต่กลับมีน้ำตกตลอดทั้งปี เป็นแหล่งต้นน้ำที่สำคัญของลำน้ำเข็ก\n\tซึ่งเมื่อก่อนนั้น คอมมิวนิสต์เคยใช้เป็นที่อยู่อาศัย เรียกได้ว่าเป็นชุมชนขนาดย่อมๆ เพราะมีการพบเจอหลักฐานและสิ่งของเครื่องใช้ต่างๆ ในบริเวณน้ำตก ไม่ว่าจะเป็น บ้านพัก ครกตำข้าว เป็นต้น"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/waterfall_sridith3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/waterfall_sridith2" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="รายละเอียดเพิ่มเติม"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="ใครที่สนใจเดินทางมาที่ น้ำตกศรีดิษฐ์ นั้น สามารถใช้เส้นทางเดียวกับทางไปทุ่งแสลงหลวง ถ้ามาจากเขาค้อ ถนนสาย 2196 ก็สามารถเลี้ยวเข้า ถนนสาย 2325 จะสังเกตได้จากป้ายบอกทางไปน้ำตกได้ เพราะจะมีป้ายบอกทางเป็นระยะๆ เดินทางไม่ยากเลย"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ActionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="70"
+            android:checkable="true"
+            android:text="HOME"
+            app:icon="@drawable/va_home"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btn_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="TOP"
+            app:iconGravity="textStart" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

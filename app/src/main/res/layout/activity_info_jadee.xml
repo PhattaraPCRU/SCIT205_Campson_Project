@@ -5,5 +5,184 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".info_jadee">
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ActionLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <ScrollView
+            android:id="@+id/Scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/MovingPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/jadee"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tเป็นสถานที่ศักดิ์สิทธิ์คู่เมืองของเขาค้อ ลักษณะเป็นเจดีย์สีขาว สถาปัตยกรรมผสมผสานทั้งแบบสุโขทัย อยุธยา และรัตนโกสินทร์ บริเวณยอดเจดีย์บรรจุพระบรมสารีริกธาตุ พระอัฐธาตุของพระพุทธเจ้า ที่อัญเชิญมาจากประเทศศรีลังกา โดยพระบาทสมเด็จ พระเจ้าอยู่หัวรัชกาลที่ 9 ทรงพระราชทานให้กับประชาชนในพื้นที่เขาค้อ เพื่อเป็นสิริมงคล หลังจากยุติการสู้รบกับคอมมิวนิสต์ใน ประเทศไทย"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/jadee1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ประวัติ"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tเดิมนั้น พระบาทสมเด็จพระเจ้าอยู่หัวรัชกาลที่ 9 ได้ทรงพระกรุณาโปรดเกล้าโปรดกระหม่อม ให้อัญเชิญพระบรมสารีริกธาตุของพระพุทธเจ้ามาประดิษฐานไว้ กับสำนักสงฆ์วิชมัยปุญญาราม อำเภอเขาค้อ เนื่องจากในอดีตเคยเป็นพื้นที่ ที่มีการสู้รบ ระหว่างคนไทยด้วยกันเองมาอย่างยาวนาน จนทำให้เกิดการสูญเสียชีวิต และเลือดเนื้อจำนวนมาก ยังความเศร้าโศกเสียใจให้กับคนไทยทั้งชาติ"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/jadee2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="การมีพระบรมธาตุในพื้นที่จะเป็นสิริมงคล ก่อให้เกิดความสงบสุขร่มเย็น ประกอบกับแผนการพัฒนาเขาค้อ ได้ทำให้ราษฎรในพื้นที่ได้รับการส่งเสริมให้มีที่ทำกินเป็นของตนเอง มีการพัฒนาอาชีพทางการเกษตร ทำให้มีชีวิตความเป็นอยู่ที่ดีขึ้นเป็นลำดับ มีรายได้เพียงพอต่อการครองชีพ และที่สำคัญราษฎรมีความรัก และหวงแหนในแผ่นดิน ที่แลกมาด้วยชีวิตเลือดเนื้อ และหยาดน้ำตาของทหารหาญและพี่น้องคนไทยจำนวนมาก"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/jadee3" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="ต่อมาในปี พ.ศ. 2534 สมเด็จพระเทพรัตนราชสุดา ฯ สยามบรมราชกุมารี ได้เสด็จพระราชดำเนินไปทรงปลูกป่าบริเวณอ่างเก็บน้ำห้วยลึก หลังสำนักสงฆ์วิชมัยปุญญาราม อำเภอเขาค้อ จังหวัดเพชรบูรณ์  เจ้าอาวาสสำนักสงฆ์วิชมัยปุญญาราม ได้กราบบังคมทูลว่ามีเศรษฐีนีท่านหนึ่ง มีความประสงค์จะขอสร้างพระสถูปเจดีย์ เพื่อบรรจุพระบรมสารีริกธาตุ ที่พระบาทสมเด็จพระเจ้าอยู่หัวพระราชทานมา สมเด็จพระเทพรัตนราชสุดา ฯ สยามบรมราชกุมารี มีพระราชกระแสกับ พลเอก พิจิตร กุลละวณิชย์ ว่าควรจะให้คนไทยทุกหมู่เหล่าได้มีส่วนร่วมในการก่อสร้างพระบรมธาตุเจดีย์ เพื่อบรรจุพระบรมสารีริกธาตุดังกล่าวน่าจะเหมาะสมกว่า\n\n\tพลเอก พิจิตร กุลละวณิชย์ และข้าราชการ ประชาชนทุกหมู่เหล่า จึงร่วมใจกันสร้างองค์เจดีย์กาญจนาภิเษกขึ้นมา และอัญเชิญพระบรมธาตุมาประดิษฐานไว้ เป็นสิ่งศักดิ์สิทธิ์คู่เมืองเขาค้อตั้งแต่บัดนั้นเป็นต้นมา"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/jadee4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tการมาเที่ยวเขาค้อ และได้มีโอกาสมาไหว้พระที่เจดีย์กาญจนาภิเษก จึงถือเป็นการเสริมสิริมงคลสำหรับผู้มาเยือนเขาค้อทุกคนด้วยเช่นกัน\n\n\tเจดีย์กาญจนาตั้งอยู่ในตำบลเขาค้อ ริมเส้นทางหลัก ถนนสาย 2196 ใกล้ไปรษณีย์เขาค้อ เป็นเส้นทางหลักสำหรับการท่องเที่ยวที่เดินทางสะดวกมาก"
+                    android:textSize="16sp" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/jadee5" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/jadee6" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/jadee7" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="รายละเอียดเพิ่มเติม"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="J2R2+C85 ตำบล เขาค้อ อำเภอเขาค้อ เพชรบูรณ์ 67270"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ActionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="70"
+            android:checkable="true"
+            android:text="HOME"
+            app:icon="@drawable/va_home"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btn_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="TOP"
+            app:iconGravity="textStart" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

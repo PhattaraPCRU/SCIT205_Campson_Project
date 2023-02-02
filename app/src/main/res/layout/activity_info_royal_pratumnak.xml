@@ -4,6 +4,218 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".info_royal_pratumnak">
+    tools:context=".info_royal_pratumnak"
+    android:background="#ba81ce">
+    <LinearLayout
+        android:id="@+id/Content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ActionLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <ScrollView
+            android:id="@+id/Scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/MovingPart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="clip_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:text="@string/royal_pratumnak"
+                    android:textAlignment="center"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\tพระตำหนักเขาค้อ เป็นที่ประทับของพระบาทสมเด็จพระเจ้าอยู่หัว รัชกาลที่ 9 และสมเด็จพระบรมราชินีนาถ ตั้งอยู่บนเขาย่า สูงจากระดับน้ำทะเลปานกลางประมาณ 1,100 เมตร จัดสร้างโดยบรรดาข้าราชการ พลเรือน ตำรวจ ทหาร และประชาชนในพื้นที่ภาคเหนือ ด้วยความซาบซึ้งในพระมหากรุณาธิคุณของพระองค์ท่าน ที่ให้ความสำคัญกับเขาค้อ โดยได้ทรงเสด็จเยี่ยมเยือนเหล่าทหารที่ร่วมสู้รบกับผู้ก่อการร้ายในพื้นที่หลายครั้ง นำความปลื้มปิติ และเป็นขวัญกำลังใจกับทหาร พลเรือน และประชาชนในพื้นที่ทุกหมู่เหล่า"
+                    android:textSize="16sp"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/royal_pratumnak1" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ภายหลังการต่อสู้ด้วยอาวุธกับ ผู้ก่อการร้ายคอมมิวนิสต์สิ้นสุดลงแล้ว จึงได้รวบรวมทุนทรัพย์ ริเริ่มการก่อสร้าง พระตำหนักเขาค้อ ขึ้นเพื่อเป็นขวัญกำลังใจแก่ประชาชนในพื้นที่ และเป็นที่ทรงงาน และแปรพระราชฐานมาประทับแรม ในวโรกาสที่พระองค์ และพระบรมวงศานุวงศ์ เสด็จมาตรวจเยี่ยมโครงการตามพระราชดำริ ในพื้นที่เขาค้อ"
+                    android:textSize="16sp"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/royal_pratumnak2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tภายในพระตำหนักประกอบด้วยอาคารเชื่อต่อกันลักษณะรูปวงแหวน มีเรือนข้าราชบริพารเป็นส่วนเชื่อมต่อกับพระตำหนัก อาคารมีลักษณะโค้ง 2 ชั้น ชั้นบนมี 2 ห้องใหญ่ ซึ่งเป็นห้องบรรทมของพระบาทสมเด็จพระเจ้าอยู่หัว และสมเด็จพระนางเจ้าฯพระบรมราชินีนาถ ชั้นล่างประกอบด้วย ห้องพระราชทานเลี้ยง ซึ่งมีห้องครัวอยู่ทางด้านหน้า ห้องเสวย ห้องเข้าเฝ้า และบริเวณห้องโถงใหญ่"
+                    android:textSize="16sp"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/royal_pratumnak3" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tชั้นล่างยังเป็นห้องบรรทมของสมเด็จย่า  สมเด็จพระเทพรัตนราชสุดาสยามบรมราชกุมารี และสมเด็จพระเจ้าลูกยาเธอเจ้าฟ้าจุฬาภรณ์วลัยลักษณ์อัครราชกุมารี บริเวณ ด้านหน้าพระตำหนัก มีสวนหย่อม และแปลงไม้ดอกมีลักษณะเป็นวงกลม ณ จุดศูนย์กลางของวงกลมเป็นที่ตั้งของเสาธงมหาราช มีความสูง 60 เมตร ซึ่งสร้างขึ้นเนื่องในวโรกาสฉลองครบพระชนมายุครบรอบ 60  พรรษา ของพระบาทสมเด็จพระเจ้าอยู่หัวรัชกาลที่ 9\n\tผู้ริเริ่มประสานงานการก่อสร้างคือ พล.อ.พิจิตร กุลละวณิชย์ ผู้ออกแบบ มล.ตรีทศยุทธ เทวกุล วิศวกร  ดร.รชฏ กาญจนวนิชย์ ผู้ก่อสร้าง (พ.ต. ธีรวัฒน์ สวามิวัสดิ์ ผู้ควบคุม) ช.พัน.4  ใช้งบประมาณการก่อสร้าง 26 ล้านบาท (ไม่ใช้งบประมาณของทางราชการ) ระยะเวลาในการก่อสร้าง 7 เดือนเศษเปิดเมื่อ 25 กุมภาพันธ์ 2528"
+                    android:textSize="16sp"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/royal_pratumnak4" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="การเที่ยวชมพระตำหนักเขาค้อ"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:text="\tเนื่องจากพระตำหนักเขาค้อ ตั้งอยู่บนเขาย่า ซึ่งเป็นเขาที่สูงที่สุดในบริเวณเขาค้อ จึงมีทางขึ้นที่ค่อนข้างลาดชัน ต้องใช้รถยนต์ที่มีกำลังเครื่องยนต์สูง จึงสะดวกสำหรับการขึ้นไปเที่ยวชม ซึ่งนอกจากการเที่ยวชมพระตำหนักแล้ว ยังมีสวนดอกไม้เมืองหนาวที่ปลูกประดับไว้สวยงามโดยรอบ ในช่วงปลายฤดูหนาวต้นเดือนมกราคม-กุมภาพันธ์ สามารถชมดอกพญาเสือโคร่งบานได้ที่นี่ด้วย\n\tนอกจากนี้ยังมีจุดชมวิวที่สามารถชมทิวทัศน์มุมสูงได้จากบริวณด้านข้างพระตำหนัก และมีเรือนไม้ 2 ชั้น 2 อาคาร ไว้สำหรับรองรองนักท่องเที่ยวที่ต้องการค้างแรมด้วย\n\n\tส่วนนักท่องเที่ยวที่รักความท้าทาย ยังสามารถขึ้นชมยอดเขาย่า ได้จากทางพระตำหนักนี้ได้เช่นกัน โดยการเดินเท้าขึ้นต่อไปยังยอดเขาย่า ระยะทางประมาณ 770 เมตร ด้านบนยอดเขาย่าจะมีฐานปฏิบัติการทางทหาร เดิมที่ใช้ในการต่อสู้กับคอมมิวนิสต์ ซึ่งสามารถชมทิวทัศน์สวยงามได้โดยรอบ สามารถมองลงมายังพระตำหนักเขาค้อที่อยู่เบื้องล่างด้วย\n\tที่จุดชมทิวทัศน์ยอดเขาย่า มีศาลาชมวิว ชื่อศาลาพระเทพ อยู่ยอดเขาย่า ที่ความสูงจากระดับน้ำทะเลปานกลาง 1,305 เมตร โดยสมเด็จพระเทพรัตนราชสุดาสยามบรมราชกุมารีได้เคยเสด็จขึ้นมาถึงศาลาแห่งนี้ด้วย"
+                    android:textSize="16sp"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:adjustViewBounds="true"
+                    app:srcCompat="@drawable/royal_pratumnak5" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="รายละเอียดเพิ่มเติม"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="HX3G+695 2258 ตำบล เขาค้อ อำเภอเขาค้อ เพชรบูรณ์ 67270"
+                    android:textSize="16sp"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#2a7fff"
+                    android:shadowDx="1.5"
+                    android:shadowDy="1.3"
+                    android:shadowRadius="1.6"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ActionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_weight="70"
+            android:checkable="true"
+            android:text="HOME"
+            app:icon="@drawable/va_home"
+            app:iconGravity="textStart"
+            android:backgroundTint="#2a7fff"/>
+
+        <Button
+            android:id="@+id/btn_control"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:backgroundTint="#2a7fff"
+            android:text="TOP"
+            app:iconGravity="textStart" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
