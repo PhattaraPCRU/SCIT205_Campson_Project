@@ -22,7 +22,6 @@ public class HomeFragment extends Fragment {
     int[] royal_pratumnak = {R.drawable.royal_pratumnak1, R.drawable.royal_pratumnak2, R.drawable.royal_pratumnak3, R.drawable.royal_pratumnak4, R.drawable.royal_pratumnak5};
     int[] jadee = {R.drawable.jadee1, R.drawable.jadee2, R.drawable.jadee3, R.drawable.jadee4, R.drawable.jadee5, R.drawable.jadee6, R.drawable.jadee7};
     int[] khaokho_sacment = {R.drawable.khaokho_sacment1, R.drawable.khaokho_sacment2, R.drawable.khaokho_sacment3, R.drawable.khaokho_sacment4, R.drawable.khaokho_sacment5, R.drawable.khaokho_sacment6, R.drawable.khaokho_sacment7};
-    Context ThisActivity = getActivity();
     public HomeFragment() {
         // Required empty public constructor
     }
@@ -69,6 +68,7 @@ public class HomeFragment extends Fragment {
             sliderViews[i].setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
             sliderViews[i].startAutoCycle();
         }
+        Context ThisActivity = getActivity();
         view.findViewById(R.id.tv1).setOnClickListener(v -> Utility.page(ThisActivity, info_temple_sonkaew.class));
         view.findViewById(R.id.tv2).setOnClickListener(v -> Utility.page(ThisActivity, info_waterfall_sridith.class));
         view.findViewById(R.id.tv3).setOnClickListener(v -> Utility.page(ThisActivity, info_royal_pratumnak.class));
