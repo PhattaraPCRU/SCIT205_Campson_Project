@@ -10,8 +10,9 @@
         android:id="@+id/nav_otop"
         android:icon="@drawable/va_shopping_bag"
         tools:ignore="HardcodedText" />
-    <item android:title="Setting"
+    <item
         android:id="@+id/nav_setting"
         android:icon="@drawable/va_settings"
+        android:title="Developer"
         tools:ignore="HardcodedText" />
 </menu>
