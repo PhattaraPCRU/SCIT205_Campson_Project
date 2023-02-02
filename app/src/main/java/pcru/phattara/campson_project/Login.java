@@ -27,14 +27,14 @@ public class Login extends AppCompatActivity {
                 } else if (data_age_str.equalsIgnoreCase("")) {
                     data_age.setError("Please enter a age");
                 } else {
-                    db.insertData(data_name_str, data_age_str, Utility.getDateTime());
+                    db.insertData(data_name_str, data_age_str, Utility.getDateTimeThailandF());
                     data_name.setText("");
                     data_age.setText("");
                     Utility.page(this, Home.class);
                 }
             });
             btn_submit_ano.setOnClickListener(v -> {
-                    db.insertData("Anonymous", "0", Utility.getDateTime());
+                    db.insertData("[Anon]", "0", Utility.getDateTimeThailandF());
                     data_name.setText("");
                     data_age.setText("");
                     Utility.page(this, Home.class);
