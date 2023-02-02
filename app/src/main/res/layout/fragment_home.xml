@@ -46,10 +46,14 @@
                     android:layout_marginStart="7dp"
                     android:layout_marginBottom="4dp"
                     android:elevation="100dp"/>
+
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/imgS1"
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderAutoCycleEnabled="true"
@@ -58,16 +62,13 @@
                     app:sliderIndicatorMargin="15dp"
                     app:sliderIndicatorOrientation="horizontal"
                     app:sliderIndicatorPadding="3dp"
+
                     app:sliderIndicatorRadius="2dp"
-                    app:sliderIndicatorSelectedColor="#5A5A5A"
-                    app:sliderIndicatorUnselectedColor="#FFF"
 
+                    app:sliderIndicatorSelectedColor="#00000000"
+                    app:sliderIndicatorUnselectedColor="#00000000"
                     app:sliderScrollTimeInSec="3"
-
-                    app:sliderStartAutoCycle="true"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:sliderStartAutoCycle="true" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -91,10 +92,14 @@
                     android:layout_marginStart="7dp"
                     android:layout_marginBottom="4dp"
                     android:elevation="100dp"/>
+
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/imgS2"
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderAutoCycleEnabled="true"
@@ -103,16 +108,13 @@
                     app:sliderIndicatorMargin="15dp"
                     app:sliderIndicatorOrientation="horizontal"
                     app:sliderIndicatorPadding="3dp"
+
                     app:sliderIndicatorRadius="2dp"
-                    app:sliderIndicatorSelectedColor="#5A5A5A"
-                    app:sliderIndicatorUnselectedColor="#FFF"
 
+                    app:sliderIndicatorSelectedColor="#00000000"
+                    app:sliderIndicatorUnselectedColor="#00000000"
                     app:sliderScrollTimeInSec="4"
-
-                    app:sliderStartAutoCycle="true"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:sliderStartAutoCycle="true" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -126,8 +128,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     android:text="@string/royal_pratumnakU"
-                    android:textColor="#FFFFFF"
-                    android:shadowColor="#000000"
+                    android:textColor="#ffdf00"
+                    android:shadowColor="#ba81ce"
                     android:shadowDx="1.5"
                     android:shadowDy="1.3"
                     android:shadowRadius="1.6"
@@ -136,10 +138,14 @@
                     android:layout_marginStart="7dp"
                     android:layout_marginBottom="4dp"
                     android:elevation="100dp"/>
+
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/imgS3"
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderAutoCycleEnabled="true"
@@ -148,16 +154,13 @@
                     app:sliderIndicatorMargin="15dp"
                     app:sliderIndicatorOrientation="horizontal"
                     app:sliderIndicatorPadding="3dp"
+
                     app:sliderIndicatorRadius="2dp"
-                    app:sliderIndicatorSelectedColor="#5A5A5A"
-                    app:sliderIndicatorUnselectedColor="#FFF"
 
+                    app:sliderIndicatorSelectedColor="#00000000"
+                    app:sliderIndicatorUnselectedColor="#00000000"
                     app:sliderScrollTimeInSec="5"
-
-                    app:sliderStartAutoCycle="true"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:sliderStartAutoCycle="true" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -181,10 +184,14 @@
                     android:layout_marginStart="7dp"
                     android:layout_marginBottom="4dp"
                     android:elevation="100dp"/>
+
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/imgS4"
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderAutoCycleEnabled="true"
@@ -193,16 +200,13 @@
                     app:sliderIndicatorMargin="15dp"
                     app:sliderIndicatorOrientation="horizontal"
                     app:sliderIndicatorPadding="3dp"
+
                     app:sliderIndicatorRadius="2dp"
-                    app:sliderIndicatorSelectedColor="#5A5A5A"
-                    app:sliderIndicatorUnselectedColor="#FFF"
 
+                    app:sliderIndicatorSelectedColor="#00000000"
+                    app:sliderIndicatorUnselectedColor="#00000000"
                     app:sliderScrollTimeInSec="6"
-
-                    app:sliderStartAutoCycle="true"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:sliderStartAutoCycle="true" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -228,10 +232,14 @@
                     android:layout_marginStart="7dp"
                     android:layout_marginBottom="4dp"
                     android:elevation="100dp"/>
+
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/imgS5"
                     android:layout_width="match_parent"
                     android:layout_height="230dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderAutoCycleEnabled="true"
@@ -240,16 +248,13 @@
                     app:sliderIndicatorMargin="15dp"
                     app:sliderIndicatorOrientation="horizontal"
                     app:sliderIndicatorPadding="3dp"
+
                     app:sliderIndicatorRadius="2dp"
-                    app:sliderIndicatorSelectedColor="#5A5A5A"
-                    app:sliderIndicatorUnselectedColor="#FFF"
 
+                    app:sliderIndicatorSelectedColor="#00000000"
+                    app:sliderIndicatorUnselectedColor="#00000000"
                     app:sliderScrollTimeInSec="7"
-
-                    app:sliderStartAutoCycle="true"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:sliderStartAutoCycle="true" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
