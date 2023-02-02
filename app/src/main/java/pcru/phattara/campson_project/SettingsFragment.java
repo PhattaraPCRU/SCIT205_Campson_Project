@@ -1,5 +1,6 @@
 package pcru.phattara.campson_project;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -35,7 +36,9 @@ public class SettingsFragment extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        Button btn_logs = view.findViewById(R.id.logs);
-        btn_logs.setOnClickListener(v -> Utility.page(getActivity(), VisitorLogs.class));
+        Context thisActivity = getActivity();
+        view.findViewById(R.id.btn_logs).setOnClickListener(v -> Utility.page(thisActivity, VisitorLogs.class));
+        view.findViewById(R.id.btn_endSession).setOnClickListener(v -> Utility.page(thisActivity, Login.class));
+        view.findViewById(R.id.btn_sourceCode).setOnClickListener(v -> Utility.url(thisActivity, "https://github.com/PhattaraPCRU/SCIT205_Campson_Project"));
     }
 }
