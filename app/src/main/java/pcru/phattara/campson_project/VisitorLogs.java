@@ -1,44 +1,29 @@
 package pcru.phattara.campson_project;
 
 import android.database.Cursor;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
 public class VisitorLogs extends AppCompatActivity {
-    DBHelper db;
-     ArrayList<Visitor> visitorList;
-    ListView listView;
-    Visitor visitor;
-
+    DBHelper db; ArrayList<Visitor> visitorList; ListView listView; Visitor visitor;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_visitor_logs);
-
         updateListView();
-        findViewById(R.id.btn_back).setOnClickListener(v -> {
-            finish();
-        });
+        findViewById(R.id.btn_back).setOnClickListener(v -> finish());
         findViewById(R.id.btn_refresh).setOnClickListener(v -> {
             finish();
             startActivity(getIntent());
         });
-        findViewById(R.id.btn_delete).setOnClickListener(v -> {
-            deleteListView();
-        });
+        findViewById(R.id.btn_delete).setOnClickListener(v -> deleteListView());
     }
     private void updateListView(){
         db = new DBHelper(this);
@@ -64,10 +49,8 @@ public class VisitorLogs extends AppCompatActivity {
     private void deleteListView(){
         if (db.deleteAll()) {
             Toast.makeText(VisitorLogs.this, "All data deleted", Toast.LENGTH_SHORT).show();
-            updateListView();
         } else {
             Toast.makeText(VisitorLogs.this, "There is no data to delete", Toast.LENGTH_SHORT).show();
         }
-        updateListView();
     }
 }

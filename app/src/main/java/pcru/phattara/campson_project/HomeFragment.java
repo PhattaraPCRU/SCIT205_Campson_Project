@@ -29,8 +29,6 @@ public class HomeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
     }
 
     @Override
@@ -74,6 +72,7 @@ public class HomeFragment extends Fragment {
         view.findViewById(R.id.tv3).setOnClickListener(v -> Utility.page(ThisActivity, info_royal_pratumnak.class));
         view.findViewById(R.id.tv4).setOnClickListener(v -> Utility.page(ThisActivity, info_jadee.class));
         view.findViewById(R.id.tv5).setOnClickListener(v -> Utility.page(ThisActivity, info_khaokho_sacment.class));
+
 
     }
 }
